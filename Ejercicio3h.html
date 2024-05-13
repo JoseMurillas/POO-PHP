@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form action="formulario3.php" method="post">
+        Ingrese el titulo
+        <input type="text" name="titulo">
+        <br>
+        Selecciones formato del texto 
+        <select name="formato" id="">
+            <option value="centrado" name="centrado">Centrado</option>
+            <option value="derecha" name="derecha">Derecha</option>
+            <option value="izquierda" name="izquierda">Izquierda</option>
+        </select>
+        <br>
+        Ingrese el color del fondo
+        <input type="color" name="color">
+        <br>
+        Selecciones fuente del texto 
+        <select name="fuente" id="">
+            <option value="arial" name="arial">Arial</option>
+            <option value="arialB" name="arialB">Arial Black</option>
+            <option value="impact" name="impact">Impact</option>
+        </select>
+        <br>
+        <input type="submit" value="Enviar">
+    </form> 
+</body>
+</html>
